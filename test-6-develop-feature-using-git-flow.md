@@ -19,3 +19,18 @@ Here's how to develop a new feature using git flow
 - repo: https://github.com/nvie/gitflow
 - cheatsheet: https://danielkummer.github.io/git-flow-cheatsheet/
 - tutorial: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+### git flow configuration
+
+The only difference is that next release branch. Usually is mapped to `develop`. In our case we use `staging`.
+
+```
+Branch name for production releases: master
+Branch name for "next release" development: staging
+Feature branch prefix: feature/
+Bugfix branch prefix: bugfix/
+Release branch prefix: release/
+Hotfix branch prefix: hotfix/
+Support branch prefix: support/
+Version tag prefix:
+```
