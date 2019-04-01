@@ -38,7 +38,7 @@ git push
 git flow feature finihsh --squash <feature>
 
 # sync staging branch
-git push 
+git push
 ```
 
 #### Without gitflow
