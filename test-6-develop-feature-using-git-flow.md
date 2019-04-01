@@ -14,3 +14,8 @@ Here's how to develop a new feature using git flow
     git checkout master
     git push && git push --tags
     ```
+
+### git flow documetation
+- repo: https://github.com/nvie/gitflow
+- cheatsheet: https://danielkummer.github.io/git-flow-cheatsheet/
+- tutorial: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
