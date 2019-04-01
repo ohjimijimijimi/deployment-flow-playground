@@ -31,14 +31,19 @@ git commit -m "message 5"
 # push the feature branch to remote
 git push
 
-# create PR for staging so the code can be reviewed
-# but don't merge it from GitHub because we will use gitflow
+# create PR for develop so the code can be reviewed
+
+# merge the PR using a normal merge. This allows to keep the full history on develop
+
+# wait for QA
 
 # finish the feature squashing the changes
 git flow feature finihsh --squash <feature>
 
 # sync staging branch
 git push
+
+# release if requested
 ```
 
 #### Without gitflow
@@ -68,5 +73,13 @@ git push
 
 # create PR for staging so the code can be reviewed
 
+# merge the PR using a normal merge. This allows to keep the full history on develop
+
+# create a new PR with base staging
+
+# wait for QA
+
 # finish the feature by using the squash merge feature of GitHub
+
+# release if needed.
 ```
